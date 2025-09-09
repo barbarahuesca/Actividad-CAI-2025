@@ -196,8 +196,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.dateTimePicker3);
@@ -286,7 +284,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(62, 268);
+            this.button1.Location = new System.Drawing.Point(527, 381);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 17;
@@ -295,7 +293,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(176, 268);
+            this.button2.Location = new System.Drawing.Point(623, 381);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 18;
@@ -307,7 +305,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 719);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form2";
             this.Text = "Formulario Recepcion";
